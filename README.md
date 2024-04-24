@@ -6,3 +6,6 @@ The url of "amqp://guest:guest@localhost:5672" is the same as in the subscriber 
 
 ## Running RabbitMQ as message broker.
 ![RabbitMQ](/assets/ss1.png)
+
+## Sending and processing event.
+![Sending and processing event img](/assets/ss2.png)
