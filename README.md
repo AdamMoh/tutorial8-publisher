@@ -10,3 +10,7 @@ The url of "amqp://guest:guest@localhost:5672" is the same as in the subscriber 
 ## Sending and processing event.
 ![Sending and processing event img](/assets/ss2.png)
 after running subscriber and publisher, the publisher send 5 message to rabbitMQ and the subscriber will receive from rabbitMQ.
+
+## Monitoring chart based on publisher.
+![Monitoring chart](/assets/ss3.png)
+After monitoring the chart, there is a relation between spikes and running the publisher. The spikes indicate the rate of message that the publisher sends to the message broker(RabbitMQ).
