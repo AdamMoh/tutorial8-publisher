@@ -9,3 +9,4 @@ The url of "amqp://guest:guest@localhost:5672" is the same as in the subscriber 
 
 ## Sending and processing event.
 ![Sending and processing event img](/assets/ss2.png)
+after running subscriber and publisher, the publisher send 5 message to rabbitMQ and the subscriber will receive from rabbitMQ.
